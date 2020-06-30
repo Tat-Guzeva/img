@@ -1,0 +1,38 @@
+@media screen and (min-width: 1200px) {
+  .service-list {
+    display: flex;
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+  }
+
+  .service-list {
+    .item:not(:last-child) {
+      margin-right: 30px;
+    }
+  }
+
+  .service-title {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    bottom: 0;
+    margin: 0px;
+    padding-top: 27px;
+
+    color: $white-color;
+    background-color: $service-title-bg-cololor;
+    font-weight: 700;
+    font-size: 14px;
+    line-height: 1.14;
+    text-align: center;
+    letter-spacing: 0.03em;
+    text-transform: uppercase;
+  }
+
+  .service-list {
+    .item {
+      position: relative;
+    }
+  }
+}

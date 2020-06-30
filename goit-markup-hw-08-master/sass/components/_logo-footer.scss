@@ -1,0 +1,25 @@
+.logo-footer {
+  display: block;
+  color: $accent-color;
+  font-family: $logo-font, sans-serif;
+  font-weight: 700;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+  text-decoration: none;
+  text-align: center;
+  margin-bottom: 20px;
+
+  @media screen and (min-width: 768px) {
+    font-size: 24px;
+  }
+
+  @media screen and (min-width: 1200px) {
+    font-size: 26px;
+    text-align: left;
+  }
+}
+
+.logo-studio-footer {
+  color: $white-color;
+}
